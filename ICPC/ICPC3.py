@@ -15,3 +15,4 @@ for i in range(0,len(str)):
         if(str[i]==str[j]):
             let=str[i]
 print(let)
+https://app.cybrary.it/profile/ConvenientFlyingfish6735?tab=badges
