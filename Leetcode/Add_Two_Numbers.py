@@ -23,5 +23,4 @@ for y in thir_sum:
     thir_sum_arr.append(int(y))
 
 thir_sum_rev = thir_sum_arr[::-1]
-print(thir_sum_rev)
-# print(type(thir_sum))
+return thir_sum_rev
