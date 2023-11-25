@@ -34,6 +34,4 @@ for i in num:
         ans += my_dict[i]
     else:
         ans += i
-if ans[-1] != "!":
-    ans += "!"
 print(ans)
