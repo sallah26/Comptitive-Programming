@@ -15,3 +15,6 @@ print(insertion_sort(add))
 # ============================================
 # BUT THE EASIEST WAY TO DO IS USING sorted(arr)
 # ============================================
+
+
+print(sorted(add))
