@@ -74,18 +74,18 @@
 
 
 
-nums = [5,7,7,8,8,10]
-target = 8
-if nums == [0]:
-    return [0, 0]
-elif target in nums:
-    bzat = nums.count(target)
-    indx = nums.index(target)
-    arr = []
-    for i in range(bzat):
-        arr.append(indx)
-        indx +=1
-    print(arr)
-else:
-    print([-1,1])
-    
+nums = [53,71,7,82,0, 23343, 8,10]
+# target = 8
+# if nums == [0]:
+#     return [0, 0]
+# elif target in nums:
+#     bzat = nums.count(target)
+#     indx = nums.index(target)
+#     arr = []
+#     for i in range(bzat):
+#         arr.append(indx)
+#         indx +=1
+#     print(arr)
+# else:
+#     print([-1,1])
+print(sorted(nums))
