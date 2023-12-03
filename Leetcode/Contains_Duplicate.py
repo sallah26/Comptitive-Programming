@@ -82,10 +82,10 @@ s = "selaahs dcamsd casd facledq   js,m csdcadc"
 # print(arr[4])
 
 
-moves = "LLU"
-if moves.count("U") < moves.count("D") or moves.count("U") > moves.count("D"):
-    print(False)
-elif moves.count("L") < moves.count("R") or moves.count("L") > moves.count("R"):
-    print(False)
-else:
-    print(True)
+# moves = "LLU"
+# if moves.count("U") < moves.count("D") or moves.count("U") > moves.count("D"):
+#     print(False)
+# elif moves.count("L") < moves.count("R") or moves.count("L") > moves.count("R"):
+#     print(False)
+# else:
+#     print(True)

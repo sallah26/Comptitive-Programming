@@ -88,4 +88,38 @@ nums = [53,71,7,82,0, 23343, 8,10]
 #     print(arr)
 # else:
 #     print([-1,1])
-print(sorted(nums))
+# print(sorted(nums))
+
+# ==================IT IS WORKING===================
+# name = "selahadi"
+# subs = []
+# max = 0
+# maxs = []
+# arr = [1, 3, 5, 8, 1, 23, 65, 897]
+# for i in range(len(arr)):
+#     for j in range(len(arr)):
+#         if i != j:
+#             subs.append([arr[i], arr[j]])
+# for k in subs:
+#     maxs.append(k[0] + k[1])
+# print(maxs)
+# maxs = sorted(maxs)
+# print("The maximium : = ",maxs[-1])
+
+# ==================IT IS WORKING===================
+
+
+# arr = [1, 3, 5, 8, 1, 7, 21, 2]
+# should = 16
+
+# for i in range
+
+nums = [0,1,0,3,12]
+nums2 = []
+
+for i in range(len(nums) - 1, -1, -1):
+    if nums[i] == 0:
+        nums2.append(0)
+        nums.remove(nums[i])
+
+print(nums + nums2)
