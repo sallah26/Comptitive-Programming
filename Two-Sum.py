@@ -39,17 +39,25 @@
 nums = [5, 12, 2, 7, 11, 15]
 target = 9
 
-seen_numbers = {}
 
-for i in range(len(nums)):
-    complement = target - nums[i]
+
+
+
+
+
+
+# seen_numbers = {}
+
+# for i in range(len(nums)):
+#     complement = target - nums[i]
     
-    if complement in seen_numbers:
-        complement_index = seen_numbers[complement]
+#     if complement in seen_numbers:
+#         complement_index = seen_numbers[complement]
         
-        print([complement_index, i]) 
-        break  
-    else:
-        seen_numbers[nums[i]] = i
+#         print([complement_index, i]) 
+#         break  
+#     else:
+#         seen_numbers[nums[i]] = i
 
-print(seen_numbers)
+# print(seen_numbers)
+
