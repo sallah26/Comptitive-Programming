@@ -1,13 +1,14 @@
-name = ""
+x = 10
 
-def IsPalendrom(title):
+def IsPalendrom(x):
     # This solution is after i learn about two pointers and look how easy it is 
+    strX = str(x)
     left = 0
-    right = len(name) - 1
+    right = len(strX) - 1
 
-    for i in range(len(name)):
-        # print(name[i])
-        if(name[left] == name[right]):
+    for i in range(len(strX)):
+        # print(strX[i])
+        if(strX[left] == strX[right]):
             left += 1
             right -= 1
         else:
@@ -40,4 +41,4 @@ def IsPalendrom(title):
     #     return False
    
 
-print(IsPalendrom(name))
+print(IsPalendrom(x))
